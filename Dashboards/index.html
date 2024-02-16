@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediStock</title>
+
+    <link rel="shortcut icon" href="resources/img/LogoHeadMediStock.png">
+    <link rel="stylesheet" href="resources/css/animate.min.css">
+    <link rel="stylesheet" href="resources/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="resources/css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+    <link rel="stylesheet" href="resources/css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <button class="sidebar-collapse-mini d-xl-none d-block"><i class="bi bi-list"></i></button>
+        <!-- main sidebar -->
+        <div class="fixed-sidebar sidebar-mini">
+            <div class="logo">
+                <button class="sidebar-collapse"><i class="bi bi-list"></i></button>
+                <a href="index.html"><img src="resources/img/LogoColorVerde.png" alt="LOGO"></a>
+            </div>
+            <!-- sidebar menu -->
+            <div class="menu">
+                <div class="custom-scroll">
+                    <div class="sidebar-menu">
+                        <ul>
+                            <li class="sidebar-title"><span>Menu</span></li>
+                            <li class="sidebar-item"><a href="index.html" class="sidebar-link active" data-bs-toggle="tooltip" data-bs-placement="right" title="Productos" tabindex="0"><i class="bi bi-grid-fill"></i> <span>Productos</span></a></li>
+                            <li class="sidebar-item"><a href="index.html" class="sidebar-link" data-bs-toggle="tooltip" data-bs-placement="right" title="Proveedores" tabindex="0"><i class="bi bi-person"></i> <span>Proveedores</span></a></li>
+                            <li class="sidebar-item"><a href="index.html" class="sidebar-link" data-bs-toggle="tooltip" data-bs-placement="right" title="Usuarios" tabindex="0"><i class="bi bi-people"></i> <span>Usuarios</span></a></li>
+                            <li class="sidebar-item"><a href="extra_component.html" class="sidebar-link" data-bs-toggle="tooltip" data-bs-placement="right" title="Extra Components" tabindex="0"><i class="bi bi-collection-fill"></i> <span>Extra Components</span></a></li>
+                            <li class="sidebar-title"><span>Forms & Tables</span></li>
+                            <li class="sidebar-item"><a href="form_element.html" class="sidebar-link" data-bs-toggle="tooltip" data-bs-placement="right" title="Form Elements" tabindex="0"><i class="bi bi-hexagon-fill"></i> <span>Form Elements</span></a></li>
+                            <li class="sidebar-item"><a href="form_layout.html" class="sidebar-link" data-bs-toggle="tooltip" data-bs-placement="right" title="Form Layout" tabindex="0"><i class="bi bi-file-earmark-medical-fill"></i> <span>Form Layout</span></a></li>
+                            <li class="sidebar-item"><a href="editor.html" class="sidebar-link" data-bs-toggle="tooltip" data-bs-placement="right" title="Form Editor" tabindex="0"><i class="bi bi-pen-fill"></i> <span>Text Editor</span></a></li>
+                            <li class="sidebar-item"><a href="table.html" class="sidebar-link" data-bs-toggle="tooltip" data-bs-placement="right" title="Table" tabindex="0"><i class="bi bi-grid-1x2-fill"></i> <span>Table</span></a></li>
+                            <li class="sidebar-item"><a href="data_table.html" class="sidebar-link" data-bs-toggle="tooltip" data-bs-placement="right" title="Datatable" tabindex="0"><i class="bi bi-file-earmark-spreadsheet-fill"></i> <span>Datatable</span></a></li>
+                            <li class="sidebar-title"><span>Extra UI</span></li>
+                            <li class="sidebar-item"><a href="widget.html" class="sidebar-link" data-bs-toggle="tooltip" data-bs-placement="right" title="Widgets" tabindex="0"><i class="bi bi-pentagon-fill"></i> <span>Widgets</span></a></li>
+                            <li class="sidebar-item has-sub">
+                                <a role="button" class="sidebar-link" data-bs-toggle="tooltip" data-bs-placement="right" title="Icons" tabindex="0"><i class="bi bi-egg-fill"></i> <span>Icons</span></a>
+                                <ul class="sub-menu">
+                                    <li><a href="bootstrap_icon.html" class="sub-menu-item">Bootstrap Icons </a></li>
+                                    <li><a href="font_awesome.html" class="sub-menu-item">Fontawesome</a></li>
+                                </ul>
+                            </li>
+                            <li class="sidebar-item"><a href="chart.html" class="sidebar-link" data-bs-toggle="tooltip" data-bs-placement="right" title="Charts" tabindex="0"><i class="bi bi-bar-chart-fill"></i> <span>Apexcharts</span></a></li>
+                            <li class="sidebar-title"><span>Pages</span></li>
+                            <li class="sidebar-item"><a href="email.html" class="sidebar-link" data-bs-toggle="tooltip" data-bs-placement="right" title="Email Application" tabindex="0"><i class="bi bi-envelope-fill"></i> <span>Email Application</span></a></li>
+                            <li class="sidebar-item has-sub">
+                                <a role="button" class="sidebar-link" data-bs-toggle="tooltip" data-bs-placement="right" title="Authentication" tabindex="0"><i class="bi bi-person-badge-fill"></i> <span>Authentication</span></a>
+                                <ul class="sub-menu">
+                                    <li><a href="login.html" class="sub-menu-item">Login</a></li>
+                                    <li><a href="register.html" class="sub-menu-item">Register</a></li>
+                                    <li><a href="password.html" class="sub-menu-item">Forgot Password</a></li>
+                                </ul>
+                            </li>
+                            <li class="sidebar-item has-sub">
+                                <a role="button" class="sidebar-link" data-bs-toggle="tooltip" data-bs-placement="right" title="Errors" tabindex="0"><i class="bi bi-x-octagon-fill"></i> <span>Errors</span></a>
+                                <ul class="sub-menu">
+                                    <li><a href="403.html" class="sub-menu-item">403</a></li>
+                                    <li><a href="404.html" class="sub-menu-item">404</a></li>
+                                    <li><a href="500.html" class="sub-menu-item">500</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- sidebar menu -->
+        </div>
+        <!-- main sidebar -->
+        <div class="main-content">
+            <div class="top-boxes mb-10">
+                <div class="row g-10">
+                    <div class="col-xl-3 col-lg-3 col-sm-6">
+                        <div class="panel">
+                            <div class="panel-body">
+                                <div class="part-icon bg-primary">
+                                    <i class="bi bi-eye-fill"></i>
+                                </div>
+                                <div class="part-txt">
+                                    <p><span>Profile Views</span>112.000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-sm-6">
+                        <div class="panel">
+                            <div class="panel-body">
+                                <div class="part-icon bg-info">
+                                    <i class="bi bi-person-fill"></i>
+                                </div>
+                                <div class="part-txt">
+                                    <p><span>Followers</span>183.000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-sm-6">
+                        <div class="panel">
+                            <div class="panel-body">
+                                <div class="part-icon bg-success">
+                                    <i class="bi bi-person-plus-fill"></i>
+                                </div>
+                                <div class="part-txt">
+                                    <p><span>Following</span>80.000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-sm-6">
+                        <div class="panel">
+                            <div class="panel-body">
+                                <div class="part-icon bg-danger">
+                                    <i class="bi bi-bookmark-dash-fill"></i>
+                                </div>
+                                <div class="part-txt">
+                                    <p><span>Saved Post</span>112</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-10">
+                <div class="col-xl-6 col-lg-6">
+                    <div class="panel mb-10">
+                        <div class="panel-heading">
+                            <span>Profile Visit</span>
+                        </div>
+                        <div class="panel-body">
+                            <div id="chart-profile-visit"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6">
+                    <div class="panel mb-10">
+                        <div class="panel-heading">
+                            <span>Analytics</span>
+                        </div>
+                        <div class="panel-body">
+                            <div id="chart-analytics"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-10">
+                <div class="col-xl-4 col-lg-4">
+                    <div class="panel mb-10">
+                        <div class="panel-heading">
+                            <span>Recent Messages</span>
+                        </div>
+                        <div class="panel-body">
+                            <div class="recent-message">
+                                <ul>
+                                    <li>
+                                        <a href="#" class="message-box">
+                                            <div class="part-img">
+                                                <img src="assets/images/avatar-1.jpg" alt="image">
+                                            </div>
+                                            <div class="part-txt">
+                                                <p>Steven Brown</p>
+                                                <span>@sbrown</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="message-box">
+                                            <div class="part-img">
+                                                <img src="assets/images/avatar-2.jpg" alt="image">
+                                            </div>
+                                            <div class="part-txt">
+                                                <p>Keith Mendoza</p>
+                                                <span>@kmendoza</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="message-box">
+                                            <div class="part-img">
+                                                <img src="assets/images/avatar-3.jpg" alt="image">
+                                            </div>
+                                            <div class="part-txt">
+                                                <p>John Page</p>
+                                                <span>@jpage</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="message-box">
+                                            <div class="part-img">
+                                                <img src="assets/images/avatar-4.jpg" alt="image">
+                                            </div>
+                                            <div class="part-txt">
+                                                <p>Zachary Philips</p>
+                                                <span>@zphilips</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="message-box">
+                                            <div class="part-img">
+                                                <img src="assets/images/avatar-5.jpg" alt="image">
+                                            </div>
+                                            <div class="part-txt">
+                                                <p>Daniel Wise</p>
+                                                <span>@dwise</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="part-btn">Start Conversation</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-8 col-lg-8">
+                    <div class="panel mb-10">
+                        <div class="panel-heading">
+                            <span>Latest Comments</span>
+                        </div>
+                        <div class="panel-body">
+                            <div class="table-responsive latest-comments">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Name</th>
+                                            <th scope="col">Comment</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="user">
+                                                    <div class="img">
+                                                        <img src="assets/images/avatar-1.jpg" alt="User">
+                                                    </div>
+                                                    <div class="txt">
+                                                        <a href="#">Steven Brown</a>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="comment">
+                                                    <p>Really great work bro! Good Luck</p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="user">
+                                                    <div class="img">
+                                                        <img src="assets/images/avatar-2.jpg" alt="User">
+                                                    </div>
+                                                    <div class="txt">
+                                                        <a href="#">Keith Mendoza</a>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="comment">
+                                                    <p>You have really amazing templates and a lot of time Good luck!</p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="user">
+                                                    <div class="img">
+                                                        <img src="assets/images/avatar-3.jpg" alt="User">
+                                                    </div>
+                                                    <div class="txt">
+                                                        <a href="#">John Page</a>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="comment">
+                                                    <p>We don't see you a loooongg time ago. Then you appear with a such amazing item! Really good job boy.</p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="user">
+                                                    <div class="img">
+                                                        <img src="assets/images/avatar-4.jpg" alt="User">
+                                                    </div>
+                                                    <div class="txt">
+                                                        <a href="#">Zachary Philips</a>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="comment">
+                                                    <p>Very nice indeed, you're really working with passion and patience too GLWS!</p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="user">
+                                                    <div class="img">
+                                                        <img src="assets/images/avatar-5.jpg" alt="User">
+                                                    </div>
+                                                    <div class="txt">
+                                                        <a href="#">Daniel Wise</a>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="comment">
+                                                    <p>Really awesome and Great work, Looks pretty cool. GLWS</p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-10">
+                <div class="col-xl-6 col-lg-6">
+                    <div class="panel mb-10">
+                        <div class="panel-heading">
+                            <span>Transaction History</span>
+                            <div class="right">
+                                <a href="#" class="action-btn">Show All</a>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <div class="transaction-history">
+                                <ul>
+                                    <li>
+                                        <div class="left">
+                                            <span class="transaction-badge">H</span>
+                                            <span class="transaction-with">HSBC</span>
+                                        </div>
+                                        <div class="right">
+                                            <span class="transaction-icon text-success"><i class="bi bi-arrow-up-left"></i></span>
+                                            <span class="transaction-amount">$ 14,000</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="left">
+                                            <span class="transaction-badge">L</span>
+                                            <span class="transaction-with">Lush Cosmetics</span>
+                                        </div>
+                                        <div class="right">
+                                            <span class="transaction-icon text-danger"><i class="bi bi-arrow-down-right"></i></span>
+                                            <span class="transaction-amount">$ 77,000</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="left">
+                                            <span class="transaction-badge">G</span>
+                                            <span class="transaction-with">G4S</span>
+                                        </div>
+                                        <div class="right">
+                                            <span class="transaction-icon text-success"><i class="bi bi-arrow-up-left"></i></span>
+                                            <span class="transaction-amount">$ 34,000</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="left">
+                                            <span class="transaction-badge">C</span>
+                                            <span class="transaction-with">Clarks</span>
+                                        </div>
+                                        <div class="right">
+                                            <span class="transaction-icon text-danger"><i class="bi bi-arrow-down-right"></i></span>
+                                            <span class="transaction-amount">$ 65,000</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="left">
+                                            <span class="transaction-badge">J</span>
+                                            <span class="transaction-with">John Lewis & Partners</span>
+                                        </div>
+                                        <div class="right">
+                                            <span class="transaction-icon text-success"><i class="bi bi-arrow-up-left"></i></span>
+                                            <span class="transaction-amount">$ 14,000</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="left">
+                                            <span class="transaction-badge">L</span>
+                                            <span class="transaction-with">Lush Cosmetics</span>
+                                        </div>
+                                        <div class="right">
+                                            <span class="transaction-icon text-danger"><i class="bi bi-arrow-down-right"></i></span>
+                                            <span class="transaction-amount">$ 77,000</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6">
+                    <div class="panel mb-10">
+                        <div class="panel-heading">
+                            <span>Login</span>
+                            <div class="right">
+                                <a href="#" class="action-btn">Sign Up</a>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <form class="login">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1" class="form-label">Input Your Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="exampleInputEmail1" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1" class="form-label">Input Your Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                                </div>
+                                <button type="submit" class="def-btn w-100">Login</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="resources/js/jquery-3.6.0.min.js"></script>
+    <script src="resources/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="resources/js/apexcharts.js"></script>
+    <script src="resources/js/bootstrap.bundle.min.js"></script>
+    <script src="resources/js/main.js"></script>
+    <script src="resources/js/chart-init.js"></script>
+</body>
+</html>
