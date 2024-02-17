@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="resources/css/jquery.mCustomScrollbar.min.css">
     <link rel="stylesheet" href="resources/css/bootstrap.min.css">
     <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/dataTables.bootstrap5.min.css">
 </head>
 <body>
     <div class="container-fluid">
@@ -104,7 +105,24 @@
                             <span>Dashboard Productos</span>
                         </div>
                         <div class="panel-body">
-                            <div id="chart-profile-visit"></div>
+                            <table id="tablaProductos" class="display">
+                                <thead>
+                                    <tr>
+                                        <th>Column 1</th>
+                                        <th>Column 2</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Row 1 Data 1</td>
+                                        <td>Row 1 Data 2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Row 2 Data 1</td>
+                                        <td>Row 2 Data 2</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
@@ -402,5 +420,26 @@
     <script src="resources/js/bootstrap.bundle.min.js"></script>
     <script src="resources/js/main.js"></script>
     <script src="resources/js/chart-init.js"></script>
+    <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.7/js/dataTables.bootstrap5.min.js"></script>
+    <script type="text/javascript">let table = new DataTable('#tablaProductos', {
+        //Para cambiar el lenguaje a español
+        "language": {
+            "lengthMenu": "Mostrar MENU registros",
+            "zeroRecords": "No se encontraron resultados",
+            "info": "Mostrando del START al END de TOTAL registros",
+            "infoEmpty": "Mostrando del 0 al 0 de 0 registros",
+            "infoFiltered": "(de un total de MAX registros)",
+            "sSearch": "Buscar:",
+            "oPaginate": {
+                "sFirst": "Primero",
+                "sLast": "Último",
+                "sNext": "Siguiente",
+                "sPrevious": "Anterior"
+            },
+            "sProcessing": "Procesando..."
+        }
+       })</script>
+      
 </body>
 </html>
