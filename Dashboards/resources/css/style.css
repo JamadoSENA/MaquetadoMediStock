@@ -427,7 +427,7 @@ button {
   font-size: 15px;
   line-height: 50px;
   font-weight: 500;
-  color: #414141;
+  color: #668e74;
   border-radius: 7px;
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
@@ -443,7 +443,7 @@ button {
   background: linear-gradient(45deg, #668e74, #668e74);
 }
 .fixed-sidebar .menu .sidebar-menu ul .sidebar-item .sidebar-link i {
-  color: #5b712b;
+  color: #000000;
   margin-right: 10px;
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
