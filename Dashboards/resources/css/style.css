@@ -5,7 +5,11 @@ body {
   background: #ebf3ff;
   font-family: "Open Sans", sans-serif;
 }
-
+image{
+  height: 190px;
+  border-radius: 100px;
+    
+}
 img {
   max-width: 100%;
   height: auto;
@@ -37,7 +41,7 @@ button {
   text-align: center;
   height: 50px;
   line-height: 50px;
-  background: linear-gradient(45deg, #9cd02d, #D2E34A);
+  background: black;
   color: #fff;
   font-size: 16px;
   font-weight: 600;
@@ -55,7 +59,7 @@ button {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(45deg, #D2E34A, #9cd02d);
+  color: #000000;
   border-radius: 7px;
   opacity: 0;
   -webkit-transition: 0.6s;
@@ -106,7 +110,7 @@ button {
   line-height: 38px;
   font-size: 25px;
   color: #fff;
-  background: linear-gradient(45deg, #668e74, #668e74);
+  background: black;
   border: 1px solid #fff;
   border-left: 0;
   border-radius: 0 20px 20px 0;
@@ -467,7 +471,7 @@ button {
   color: #414141;
 }
 .fixed-sidebar .menu .sidebar-menu ul .sidebar-item .sub-menu li .sub-menu-item.active {
-  color: #7ca524;
+  color: #7ca524cc;
   padding-left: 5px;
 }
 .fixed-sidebar .menu .sidebar-menu ul .sidebar-item .sub-menu li .sub-menu-item:hover {
@@ -614,7 +618,7 @@ button {
   text-align: center;
   height: 50px;
   line-height: 50px;
-  background: linear-gradient(45deg, #9cd02d, #D2E34A);
+  background:  black;
   color: #fff;
   font-size: 16px;
   font-weight: 600;
@@ -630,7 +634,7 @@ button {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(45deg, #D2E34A, #9cd02d);
+  background: linear-gradient(45deg, #5b712b, #343a0b94);
   border-radius: 7px;
   opacity: 0;
   -webkit-transition: 0.6s;
@@ -990,24 +994,24 @@ button {
 }
 
 .btn-primary {
-  background: #9cd02d;
-  border-color: #9cd02d;
+  background: #000000;
+  border-color: #707a8c;
 }
 .btn-primary.btn-primary.disabled {
-  background: #D2E34A;
-  border-color: #D2E34A;
+  background: #707a8c;
+  border-color: #707a8c;
 }
 .btn-primary:disabled {
-  background: #D2E34A;
-  border-color: #D2E34A;
+  background: #707a8c;
+  border-color: #707a8c;
 }
 .btn-primary:hover {
-  background: #7ca524;
-  border-color: #7ca524;
+  background: #707070;
+  border-color: #707070;
 }
 .btn-primary:focus, .btn-primary:active:focus {
-  background: #7ca524;
-  border-color: #7ca524;
+  background: #707070;
+  border-color: #707070;
   -webkit-box-shadow: 0 0 0 0.25rem rgba(124, 165, 36, 0.4);
           box-shadow: 0 0 0 0.25rem rgba(124, 165, 36, 0.4);
   color: #fff;
