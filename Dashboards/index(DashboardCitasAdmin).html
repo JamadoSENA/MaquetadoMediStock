@@ -28,7 +28,8 @@
                 <div class="custom-scroll">
                     <div class="sidebar-menu">
                         <ul>
-                            <li class="sidebar-item"><a href="index(DashboardConsultasAdmin).html" class="sidebar-link" data-bs-toggle="tooltip" data-bs-placement="right" title="Agendamientos" tabindex="0"><i class="bi bi-collection"></i><span>Agendamientos</span></a></li>
+                            <li class="sidebar-title"><span>Menú</span></li>
+                            <li class="sidebar-item"><a href="index(DashboardAgendamientosAdmin).html" class="sidebar-link" data-bs-toggle="tooltip" data-bs-placement="right" title="Agendamientos" tabindex="0"><i class="bi bi-collection"></i><span>Agendamientos</span></a></li>
                             <li class="sidebar-item"><a href="index(DashboardCitasAdmin).html" class="sidebar-link active" data-bs-toggle="tooltip" data-bs-placement="right" title="Citas Medicas" tabindex="0"><i class="bi bi-collection"></i><span>Citas Medicas</span></a></li>
                             <li class="sidebar-item"><a href="index(DashboardPacientesAdmin).html" class="sidebar-link" data-bs-toggle="tooltip" data-bs-placement="right" title="Pacientes" tabindex="0"><i class="bi bi-people"></i><span>Pacientes</span></a></li>
                             <li class="sidebar-item"><a href="index(DashboardProductosAdmin).html" class="sidebar-link" data-bs-toggle="tooltip" data-bs-placement="right" title="Productos" tabindex="0"><i class="bi bi-grid"></i><span>Productos</span></a></li>
@@ -104,7 +105,7 @@
                             <span>Dashboard Agendamientos</span>
                         </div>
                         <div class="panel-body">
-                            <table id="tablaAgendamiento-cita" class="display">
+                            <table id="tablaAgendamientos" class="table table-striped table-hover sticky-header">
                                 <thead>
                                     <tr>
                                         <th>Column 1</th>
@@ -126,35 +127,6 @@
                     </div>
                 </div>
             </div>
-          
-            <div class="row g-10">
-                <div class="col-xl-6 col-lg-3">
-                    <div class="panel mb-10">
-                        <div class="panel-heading">
-                            <span>Acciones de Agendamiento</span>
-                        </div>
-                        <div class="panel-body">
-                            <div class="menu-options">
-                                <a href="#" class="btn btn-primary">Registrar Agendamiento</a>
-                                <hr>
-                                <a href="#" class="btn btn-primary">Modificar Agendamiento</a>
-                                <hr>
-                                <a href="#" class="btn btn-primary">Cancelar Agendamiento</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-3">
-                    <div class="panel mb-10">
-                        <div class="panel-heading">
-                            <span>Acciones de Agendamiento</span>
-                        </div>
-                        <div class="panel-body">
-                          <img src="./resources/img/DrugReactions.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                
             </div>
         </div>
     </div>
@@ -167,7 +139,7 @@
     <script src="resources/js/chart-init.js"></script>
     <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.13.7/js/dataTables.bootstrap5.min.js"></script>
-    <script type="text/javascript">let table = new DataTable('#tablaAgendamiento-cita', {
+    <script type="text/javascript">let table = new DataTable('#tablaAgendamientos', {
         //Para cambiar el lenguaje a español
         "language": {
             "lengthMenu": "Mostrar MENU registros",
